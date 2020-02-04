@@ -1,0 +1,9 @@
+pandas
+sklearn
+keras
+tensorflow
+tables
+seaborn
+matplotlib
+ipywidgets
+https://github.com/sevamoo/SOMPY/archive/master.zip
