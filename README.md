@@ -21,9 +21,8 @@ Follow steps below:
 6. cd ..
 7. cd SOM-master
 8. python setup.py install
-9. Move internal folder
-10. tfprop_sompy folder to site-packages in Anaconda or Miniconda
-11. Test to see if the first few cells of SOM_experimentation runs with no error
+9. Move internal folder tfprop_sompy folder to site-packages in Anaconda or Miniconda
+10. Test to see if the first few cells of SOM_experimentation runs with no error
 
 
 
