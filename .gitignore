@@ -1,1 +1,10 @@
 .ipynb_checkpoints
+__pycache__
+*.png
+*.h5
+
+umatrix.py
+viewsompy.py
+codebook.py
+mapview.py
+
