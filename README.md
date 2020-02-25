@@ -13,8 +13,7 @@ This repository contains a the universal portion of the work done in the Huang g
 
 ## How To Install Repo
 Follow steps below:
-1. git clone https://github.com/feliciatd/MSESOM.git
- a. Another option is to fork this github to your personal github and clone from there.
+1. git clone https://github.com/feliciatd/MSESOM.git. Another option is to fork this github to your personal github and clone from there.
 2. cd MSESOM
 3. pip install -r requirements.txt
 4. Download internal folder on to computer in the same folder
@@ -44,6 +43,6 @@ Some of the conda packages are named differently than in pip. For example, sklea
 ## Sources
 Tim Letz's github for original SOM_Visualization and Sompy_experimentation: https://github.com/timletz/materials_datascience_uw_somlab
 
-matplotlib github for dummydata: 
+matplotlib github for dummydata: https://github.com/matplotlib/matplotlib
 
 Sevamoo's SOMPY: https://github.com/sevamoo/SOMPY
