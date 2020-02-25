@@ -24,11 +24,11 @@ Follow steps below:
 1. Run Sompy_experimentation with the Dummy Data
 2. Take the produced .h5 file and use in SOM_Visualization. The results produced should be as follows:
 #### Linear Scaling
-![Linear Scaling](./readme_img/Linear_scaling.png)
+![Linear Scaling](readme_img/Linear_scaling.png)
 #### Log Scaling
-![Log Scaling](./readme_img/Log_scaling.png)
+![Log Scaling](readme_img/Log_scaling.png)
 #### U Matrix
-![U Matrix](./readme_img/U-Matrix.png)
+![U Matrix](readme_img/U-Matrix.png)
 
 ## Notes
 ### Troubleshooting
