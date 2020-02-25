@@ -28,7 +28,7 @@ Follow steps below:
 #### Log Scaling
 ![Log Scaling](readme_img/Log_scaling.png)
 #### U Matrix
-![U Matrix](readme_img/U-Matrix.png)
+![U Matrix](readme_img/U-matrix.png)
 
 ## Notes
 ### Troubleshooting
