@@ -1,25 +1,39 @@
 # MSESOM
 ## About
-This repository contains a the universal portion of the work done in the Huang group in MSE at the University of Washington.
+This repository contains code templates for self-organizing mapping (SOM), a type of unsupervised machine learning. This is work done in the Huang group in MSE at the University of Washington.
 
 ## Initial Steps
 - Have python on PC either via Miniconda or Anaconda
-- Have git installed via this link:
+  - https://docs.conda.io/en/latest/miniconda.html
+  - https://www.anaconda.com/
+- Have git installed
 - Configure your git bash to your account using command below
- - git config --global user.email ”user@email.com”
+  - git config --global user.email ”user@email.com”
 - Move to the place where you would like the repository (ex below)
-- Follow installation instructions
+- Follow installation instructions (“Installing Repo”)
 
 
 ## How To Install Repo
-Follow steps below:
-1. git clone https://github.com/feliciatd/MSESOM.git. Another option is to fork this github to your personal github and clone from there.
-2. cd MSESOM
-3. pip install -r requirements.txt
-4. Download internal folder on to computer in the same folder
-5. Test to see if the first few cells of Sompy_experimentation runs with no error
+1. In command window:
+   - git clone https://github.com/feliciatd/MSESOM.git
+   - Another option is to fork this github to your personal github and clone from there.
+2. In command window:
+   - cd MSESOM
+3. In command window:
+   - pip install -r requirements.txt
+4. Download internal group folder on to computer into the MSESOM folder
+5. Test to see if the first 3 cells of Sompy_experimentation runs with no error
+   1. If there is an error, please see “Troubleshooting” section under “Notes”
+6. We recommend that you duplicate the Sompy_experimentation and SOM_Visualization files, and title them accordingly for your personal projects, so that if there are any updates to the code templates, they will not influence any personal changes made to the files
 
-## How to Know If It Works
+## Pulling (if there are updates)
+If there are any updates in the code, we recommend you pull these updates **(overwriting the Sompy_experimentation and SOM_Visualization files)** 
+1. In command window:
+   - cd MSESOM
+2. In command window:
+   - git pull
+
+## Confirm Code Works
 1. Run Sompy_experimentation with the Dummy Data
 2. Take the produced .h5 file and use in SOM_Visualization. The results produced should be as follows:
 #### Linear Scaling
