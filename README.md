@@ -21,10 +21,9 @@ This repository contains code templates for self-organizing mapping (SOM), a typ
    - cd MSESOM
 3. In command window:
    - pip install -r requirements.txt
-4. Download internal group folder on to computer into the MSESOM folder
-5. Test to see if the first 3 cells of Sompy_experimentation runs with no error
+4. Test to see if the first 3 cells of Sompy_experimentation runs with no error
    1. If there is an error, please see “Troubleshooting” section under “Notes”
-6. We recommend that you duplicate the Sompy_experimentation and SOM_Visualization files, and title them accordingly for your personal projects, so that if there are any updates to the code templates, they will not influence any personal changes made to the files
+5. We recommend that you duplicate the Sompy_experimentation and SOM_Visualization files, and title them accordingly for your personal projects, so that if there are any updates to the code templates, they will not influence any personal changes made to the files
 
 ## Pulling (if there are updates)
 If there are any updates in the code, we recommend you pull these updates **(overwriting the Sompy_experimentation and SOM_Visualization files)** 
@@ -52,6 +51,12 @@ If there are any updates in the code, we recommend you pull these updates **(ove
 
 #### Inability to Run code
 Some of the conda packages are named differently than in pip. For example, sklearn -> scikit-learn and tables -> pytables. Additionally, conda does not automatically download packages from a URL, so there is need to clone sevamoo's SOMPY into the directory manually and then run setup.py to manually install sevamoo's SOMPY.
+
+#### Error with tf_prop folder
+Methods:
+- Move the folder into Miniconda3\Lib\site-packages or site-packages location
+- Move the folder into the MSESOM folder
+- Move the folder into your python installer folder
 
 
 ## Sources
